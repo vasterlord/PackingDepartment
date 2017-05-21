@@ -23,7 +23,7 @@ public:
 	double GetOneCost();
 	double GetCommonCost(); 
 	 
-	double Cost();
+	double Cost()override;
 	  
 	void Init()override;
 	void Show()override;

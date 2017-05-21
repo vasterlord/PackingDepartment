@@ -50,7 +50,7 @@ double DigitalScales::GetCommonCost()
  
 double DigitalScales::Cost()  
 { 
-	return GetNumber()*GetCommonCost();
+	return GetNumber()*GetOneCost();
 }  
 void DigitalScales::Show()
 {

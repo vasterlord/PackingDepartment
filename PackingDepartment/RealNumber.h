@@ -42,7 +42,8 @@ public:
 	RealNumber& operator/(double number);
 	 
 	virtual void Init();
-	virtual void Show();
+	virtual void Show();  
+	virtual double Cost();
 	
 	virtual ~RealNumber();
 };

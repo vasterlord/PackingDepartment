@@ -45,7 +45,7 @@ void RealNumber::SetMaxNumber(double maxNumber)
  
 bool RealNumber::CheckNumber(double number)  
 { 
-	if (_number <= number || _number >=number)
+	if (number < _minNumber || number >_maxNumber)
 	{
 		return false;
 	} 
@@ -125,6 +125,11 @@ void RealNumber::Init()
 	SetMinNumber(); 
 	SetMaxNumber(); 
 	SetNumber();
+} 
+ 
+double RealNumber::Cost()
+{
+	return 0;
 }
 
 RealNumber& RealNumber::operator=(const RealNumber& realNumber)

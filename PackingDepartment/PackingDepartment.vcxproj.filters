@@ -33,6 +33,9 @@
     <ClInclude Include="Iterator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="PackingShop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -50,5 +53,14 @@
     <ClCompile Include="Iterator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="PackingShop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\UML-diagram C++.jpg" />
   </ItemGroup>
 </Project>

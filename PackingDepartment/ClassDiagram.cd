@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DigitalScales">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIgAAIIAAAAAAAAABAAAAAEIgEAAAACBkAAAAA=</HashCode>
+      <FileName>DigitalScales.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Iterator">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAIAAAAAAQAEAAwAAAAUAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Iterator.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_ctr" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="RealNumber">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAEQBAQBQAAAEFAAAAAEEigABAEgA=</HashCode>
+      <FileName>RealNumber.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PackingShop">
+    <Position X="6" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEgAAAQAAAAAQAAAAAAEAESBQAAAAAAIAEAA=</HashCode>
+      <FileName>PackingShop.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_digitalScales" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
