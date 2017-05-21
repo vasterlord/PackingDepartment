@@ -129,7 +129,7 @@ void RealNumber::Init()
  
 double RealNumber::Cost()
 {
-	return 0;
+	return _number * 1;
 }
 
 RealNumber& RealNumber::operator=(const RealNumber& realNumber)
