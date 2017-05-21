@@ -148,7 +148,6 @@ RealNumber& RealNumber::operator()()
  
 RealNumber& RealNumber::operator[](double precision)
 { 
-	precision = round(precision);
 	this->_number = fmod(_number, precision);
 	return *this;
 }
